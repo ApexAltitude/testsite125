@@ -1,0 +1,20 @@
+.fit-cover {
+  object-fit: cover;
+}
+
+.col-md-6.d-md-flex.align-items-md-center {
+  margin: 0 auto;
+  width: 40%;
+}
+
+#hero-intro {
+}
+
+#Directions-Rules {
+  margin: 0 auto;
+}
+
+#Benefits-Image {
+  margin: auto;
+}
+

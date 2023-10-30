@@ -1,0 +1,130 @@
+.bs-icon {
+  --bs-icon-size: .75rem;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--bs-icon-size);
+  width: calc(var(--bs-icon-size) * 2);
+  height: calc(var(--bs-icon-size) * 2);
+  color: var(--bs-primary);
+}
+
+.bs-icon-sm {
+  --bs-icon-size: 1rem;
+}
+
+.bs-icon.bs-icon-primary {
+  color: var(--bs-white);
+  background: var(--bs-primary);
+}
+
+.bs-icon.bs-icon-rounded {
+  border-radius: .5rem;
+}
+
+a {
+  text-decoration: none;
+  color: #232323;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: tomato;
+}
+
+.dropdown_menu {
+  display: none;
+  position: absolute;
+  right: 2rem;
+  top: 60px;
+  height: 0;
+  width: 300px;
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: height .2s cubic-bezier(0.175,0885,0.32,1.275);
+}
+
+.dropdown_menu {
+  display: block;
+}
+
+.dropdown_menu li {
+  padding: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dropdown_menu .action_btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar .toggle_btn {
+  display: block;
+}
+
+.navbar {
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+.navbar .toggle_btn {
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  background-color: rgba(255,0,0,0);
+}
+
+.navbar-brand:focus, .navbar-brand:hover {
+  color: var(--bs-body-bg);
+}
+
+.navbar {
+  background: #ff000000 !important;
+  transition: 750ms ease-in;
+  opacity: 1;
+  backdrop-filter: opacity(9) blur(0px);
+  -webkit-backdrop-filter: opacity(9) blur(0px);
+}
+
+.navbar {
+  padding-bottom: 0px;
+  padding-top: 0px;
+  height: 0rem;
+}
+
+.py-3 {
+  padding-top: 0rem!important;
+  padding-bottom: 0rem!important;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
